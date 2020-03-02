@@ -3,6 +3,7 @@
 		{ "source": "/", "destination": "https://github.com/benborgers/glitch-proxy" }
 	],
 	"rewrites": [
-		{ "source": "/(.*)/(.*)", "destination": "https://$1.glitch.me/$2" }
+		{ "source": "/(.*)/(.*)", "destination": "https://$1.glitch.me/$2" },
+		{ "source": "/(.*)/(.*)/(.*)", "destination": "https://$1.glitch.me/$2/$3" }
 	]
 }
