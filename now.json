@@ -4,6 +4,7 @@
 	],
 	"rewrites": [
 		{ "source": "/(.*)/(.*)/(.*)", "destination": "https://$1.glitch.me/$2/$3" },
-		{ "source": "/(.*)/(.*)", "destination": "https://$1.glitch.me/$2" }
+		{ "source": "/(.*)/(.*)", "destination": "https://$1.glitch.me/$2" },
+		{ "source": "/(.*)", "destination": "https://$1.glitch.me" }
 	]
 }
