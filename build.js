@@ -3,9 +3,6 @@
 const fs = require("fs")
 
 const nowJson = {
-  redirects: [
-    { source: "/", destination: "https://github.com/benborgers/glitch-proxy" }
-  ],
   rewrites: []
 }
 
